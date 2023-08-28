@@ -1,13 +1,4 @@
 # React Authentication
-
-This repository houses a project built during the course of learning how to build an authentication system with react. The following are the tutorials:
-
-* [Introduction to React-Bootstrap](https://dev.to/ebereplenty/introduction-to-react-bootstrap-20ik)
-* [React Authentication - Register](https://dev.to/ebereplenty/react-authentication-part-1-39aj)
-* [React Authentication - LOGIN](https://dev.to/ebereplenty/react-authentication-login-h3i)
-* [React Authentication - Protecting and Accessing Routes/Endpoints](https://dev.to/ebereplenty/react-authentication-protecting-and-accessing-routes-endpoints-96h)
-* [Printing in React Made Easy With React-To-Print](https://dev.to/ebereplenty/printing-in-react-made-easy-with-react-to-print-4b3k)
-
 ## Dependencies
 * [Axios](https://www.npmjs.com/package/axios)
 * [React-Bootstrap](https://react-bootstrap.github.io/)
@@ -19,3 +10,24 @@ This repository houses a project built during the course of learning how to buil
 * Run ``npm install``
 * Run ``npm start``
 *That will open the project on your default browser*
+
+# auth-backend
+
+## Dependences
+- [Express](https://www.npmjs.com/package/express)
+- [Node](http://nodejs.org/)
+- [DotENV](https://www.npmjs.com/package/dotenv)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [mongoose](https://mongoosejs.com/docs/)
+- [mongodb](https://www.mongodb.com/cloud/atlas)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+
+
+## SETTING UP 
+- Clone the repositury to your machine
+- Open up a terminal
+- Navigate into the project directory
+- Run ''npm install'' to install all needed dependencies
+- Run ''nodemon index'' to spin up the server
+- The server runs on port 3000 ''http://localhost:3000/''
